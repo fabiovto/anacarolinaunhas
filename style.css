@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    background-color: #f2dbd3;
+    text-decoration: none;
+
+}
+
+header {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    width: 40%;
+
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    float: left;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
+    color: #d71384;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+li:hover {
+    color: black;
+
+}
+
+#logo {
+    width: 170px;
+    position: relative;
+    background-position: 20%, 40%;
+
+
+}
+
+#banner {
+    background-image: url(./midias/capa.jpg);
+    background-position: 50%;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+
+
+}
+
+#sobrePai {
+    color: #d71384;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 5vw;
+
+
+}
+
+.foto {
+    background-image: url(./midias/fotoaninha.png);
+    width: 30VW;
+    height: 30VW;
+    background-size: cover;
+
+
+}
+
+.texto-sobre {
+    text-align: justify;
+    width: 400px;
+    margin-right: 100px;
+
+
+}
+
+h1 {
+    font-size: 45px;
+
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+#contatoPai {
+    color: #d71384;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contatoFilho {
+    margin: 30px;
+    padding: 10px;
+}
+
+.endereco {
+    font-family: 'DM Sans', sans-serif;
+    width: 320px;
+    height: 220px;
+    text-align: center;
+    background-color: #d7138425;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.endereco:hover {
+    background-color: #b4b0b340;
+}
+
+.button {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #d71384;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: solid 2px white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: #d7138460;
+    color: rgb(255, 255, 255, 0.6) font-weight: 600;
+}
+
+.button:visited {
+    color: white;
+    background-color: #d71384;
+}
+
+.entreContato {
+    font-family: 'DM Sans', sans-serif;
+    width: 320px;
+    height: 220px;
+    text-align: center;
+    background-color: #d7138425;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entreContato:hover {
+    background-color: #b4b0b340;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.redes {
+    color: #d71384;
+    font-family: 'DM Sans', sans-serif;
+    width: 320px;
+    height: 220px;
+
+    background-color: #d7138425;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.redes:visited {
+    text-decoration: none;
+
+    color: #d71384;
+}
+
+.redes:hover {
+    background-color: #b4b0b340;
+}
+
+.itensContato {
+    width: 100px;
+    height: 100px;
+    color: #d71384;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itensRedes {
+    width: 30px;
+    height: 30px;
+
+}
+
+.redesUnica {
+    width: 50%;
+
+
+
+}
+
+.nomeRede {
+    width: 120px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#principal {
+    width: 70%;
+    margin: 2rem auto;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.galeriaTitulo {
+    font-size: 50px;
+    color: #d71384;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    margin: 20px;
+    font-weight: 600;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 5vw);
+    gap: 0.5rem;
+}
+
+.imgGaleria {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.itemGaleria {
+    overflow: hidden;
+}
+
+.item01 {
+    grid-column: 1 / span 2;
+    grid-row: 1 /span 5;
+}
+
+.item02 {
+    grid-column: 3 / span 2;
+    grid-row: 1 /span 2;
+}
+
+.item03 {
+    grid-column: 5 / span 4;
+    grid-row: 1 /span 5;
+}
+
+.item04 {
+    grid-column: 3 / span 2;
+    grid-row: 3 /span 3;
+}
+
+.item05 {
+    grid-column: 1 / span 4;
+    grid-row: 6 /span 5;
+}
+
+.item06 {
+    grid-column: 5 / span 2;
+    grid-row: 6 /span 2;
+}
+
+.item07 {
+    grid-column: 7 / span 2;
+    grid-row: 6 /span 5;
+}
+
+.item08 {
+    grid-column: 5 / span 2;
+    grid-row: 8 /span 3;
+}
+
+img {
+    transition: 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+#banner2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./midias/rodapé-imagem.jpg);
+    height: 30rem;
+    background-size: cover;
+    width: 100%;
+    transition: none;
+    transform: none;
+    margin-bottom: 5vw;
+}
+
+footer {
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 100%;
+    height: 5vw;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(255, 255, 255, 0.7);
+    text-align: center;
+
+
+}
+
+@media(max-width: 480px) {
+#banner2{
+    width: 100%;
+    height: 130px;
+
+}
+#principal{
+    width: 100%;
+}
+    header {
+        height: 150px;
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(12, 5vw);
+        gap: 0.5rem;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    ul {
+        display: block;
+    }
+
+    li {
+
+
+        background-color: #f2dbd3;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 3px;
+    }
+
+
+}
+
+@media(max-width: 768px) {
+    nav {
+        width: 60%;
+    }
+
+    #sobrePai {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10vw;
+
+
+    }
+
+    #contatoPai {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .foto {
+        width: 80vw;
+        height: 80vw;
+        margin-top: 35px;
+        margin: auto;
+        margin-top: 8vw;
+
+
+
+
+    }
+
+    .texto-sobre {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0;
+        margin: auto;
+
+    }
+}
